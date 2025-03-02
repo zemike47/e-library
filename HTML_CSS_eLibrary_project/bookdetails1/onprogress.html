@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Details</title>
+    <link rel="stylesheet" href="bookstyleprogress.css">
+    <link rel="stylesheet"
+        href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+        <!-- Google Icons  -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="onprogress.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+
+            <a href="javascript:history.back()" class="back-button">
+                <i class="las la-angle-left"></i>
+            </a>
+            <div class="links">
+                <ul>
+                    <li><a href="/homepage/homepage.html">HOME</a></li>
+                    <li><a href="/DiscussionPage/DiscussionPage.html">DISCUSSION</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="main-content">
+            <div class="book-details-container">
+                
+                    <!-- this is the search section  -->
+                    <section class="search-bar-container">
+                        <form action="" class="search-bar">
+                            <input type="text" name="q" placeholder="search library">
+                            <button type="submit"><span class="material-symbols-outlined">
+                                search
+                                </span></button>
+                        </form>
+                
+            </div>
+            <div class="book-container">
+                <div class="book-img">
+                    <img src="images/Python.jpg" alt="Book 1 Cover" class="book-cover">
+                </div>
+
+                <div class="book-details">
+                    <h2 class="book-title">Python Programming</h2>
+                    <p class="book-author">Author: John Doe</p>
+                    <p>Publication Date: January 1, 2023</p>
+                    <p class="Genre">Genre: programming</p>
+                    <div class="rating">
+                        Rating :
+                        <input type="checkbox" id="star5_1" checked>
+                        <label for="star5_1"></label>
+                        <input type="checkbox" id="star4_1" checked>
+                        <label for="star4_1"></label>
+                        <input type="checkbox" id="star3_1" checked>
+                        <label for="star3_1"></label>
+                        <input type="checkbox" id="star2_1" checked>
+                        <label for="star2_1"></label>
+                        <input type="checkbox" id="star1_1" checked>
+                        <label for="star1_1"></label>
+                    </div>
+                    <br><br>
+
+                    <button class="des">Description</button>
+                    <div class="discription hidden">
+                        <p id="description1">1000 Examples in Python Programming provides a comprehensive collection
+                            of practical code snippets, offering concise solutions for common programming
+                            challenges. Ideal for beginners and experienced developers alike, this book serves as a
+                            valuable reference for mastering Python through hands-on examples</p>
+                    </div>
+                    <br><br>
+                    <a href="book1.pdf" class="download-button">Download</a>
+                </div>
+            </div>
+
+            <div class="book-container">
+                <div class="book-img">
+                    <img src="images/FET.jpg" alt="Book 2 Cover" class="book-cover">
+                </div>
+
+                <div class="book-details">
+                    <h2 class="book-title">Fundamentals of Electronics</h2>
+                    <p class="book-author">Author: Jane Smith</p>
+                    <p>Publication Date: February 1, 2023</p>
+                    <p class="Genre">Genre: Electrical</p>
+                    <div class="rating">
+                        Rating :
+                        <input type="checkbox" id="star5_2" checked>
+                        <label for="star5_2"></label>
+                        <input type="checkbox" id="star4_2" checked>
+                        <label for="star4_2"></label>
+                        <input type="checkbox" id="star3_2" checked>
+                        <label for="star3_2"></label>
+
+                    </div>
+                    <br><br>
+                    <button class="des">Description</button>
+                    <div class="discription hidden">
+                        <p id="description2">This book presents a comprehensive treatise of the
+                            evolution of electronics for the reader to grasp both fundamental
+                            concepts and the associated practical applications through examples and exercises. </p>
+                    </div>
+                    <br><br>
+                    <a href="book2.pdf" class="download-button">Download</a>
+                </div>
+            </div>
+            <div class="book-container">
+                <div class="book-img">
+                    <img src="images/design pattern.jpg" alt="Book 4 Cover" class="book-cover">
+                </div>
+
+                <div class="book-details">
+                    <h2 class="book-title">Design Patterns: Elements of Reusable Object-Oriented Software</h2>
+                    <p class="book-author">Author: Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides</p>
+
+                    <p>Publication Date: November 10, 1994</p>
+                    <p class="Genre">Genre: programming</p>
+                    <div class="rating">
+                        Rating :
+                        <input type="checkbox" id="star5_4" checked>
+                        <label for="star5_4"></label>
+                        <input type="checkbox" id="star4_4" checked>
+                        <label for="star4_4"></label>
+                    </div>
+                    <br><br>
+                    <button class="des">Description</button>
+                    <div class="discription hidden">
+                        <p id="description4">This book introduces the programmer to patterns: how to
+                            understand them, how to use them, and then how to implement them
+                            into their programs. </p>
+                    </div>
+                    <br><br>
+                    <a href="book4.pdf" class="download-button">Download</a>
+                </div>
+            </div>
+
+            <div class="book-container">
+                <div class="book-img">
+                    <img src="images/code complete.jpg" alt="Book 5 Cover" class="book-cover">
+                </div>
+
+                <div class="book-details">
+                    <h2 class="book-title">Code Complete: A Practical Handbook of Software Construction</h2>
+                    <p class="book-author">Author: Steve McConnell</p>
+                    <p>Publication Date: June 8, 2004</p>
+                    <p class="Genre">Genre: programming</p>
+                    <div class="rating">
+                        Rating :
+                        <input type="checkbox" id="star5_6" checked>
+                        <label for="star5_6"></label>
+                        <input type="checkbox" id="star4_6" checked>
+                        <label for="star4_6"></label>
+                        <input type="checkbox" id="star3_6" checked>
+                        <label for="star3_6"></label>
+                        <input type="checkbox" id="star2_6" checked>
+                        <label for="star2_6"></label>
+                    </div>
+                    <br><br>
+                    <button class="des">Description</button>
+                    <div class="discription hidden">
+                        <p id="description5">Widely considered one of the best practical guides to
+                            programming, Steve McConnell's original CODE COMPLETE has been
+                            helping developers write better software for more than a decade. </p>
+                    </div>
+                    <br><br>
+                    <a href="book5.pdf" class="download-button">Download</a>
+                </div>
+            </div>
+
+            <div class="book-container">
+                <div class="book-img">
+                    <img src="images/pragematic programmer.jpg" alt="Book 6 Cover" class="book-cover">
+                </div>
+
+                <div class="book-details">
+                    <h2 class="book-title">The Pragmatic Programmer: Your Journey to Mastery</h2>
+                    <p class="book-author">Author: Andrew Hunt, David Thomas</p>
+                    <p>Publication Date: October 30, 1999</p>
+                    <p class="Genre">Genre: Software Engineering</p>
+                    <div class="rating">
+                        Rating :
+                        <input type="checkbox" id="star5_7" checked>
+                        <label for="star5_7"></label>
+                        <input type="checkbox" id="star4_7" checked>
+                        <label for="star4_7"></label>
+                        <input type="checkbox" id="star3_7" checked>
+                        <label for="star3_7"></label>
+                        <input type="checkbox" id="star2_7" checked>
+                        <label for="star2_7"></label>
+                        <input type="checkbox" id="star1_7" checked>
+                        <label for="star1_7"></label>
+                    </div>
+                    <br><br>
+                    <button class="des">Description</button>
+                    <div class="discription hidden">
+                        <p id="description6">Read this book, and you'll learn how to: Fight software
+                            rot
+                            Learn continuously Avoid the trap of duplicating knowledge
+                            Write flexible, dynamic, and adaptable code Harness the power of basic tools Avoid
+                            programming
+                            by coincidence Learn ..</p>
+                    </div>
+                    <br><br>
+                    <a href="book6.pdf" class="download-button">Download</a>
+                </div>
+            </div>
+
+            <div class="book-container">
+                <div class="book-img">
+                    <img src="images/introduction to.jpg" alt="Book 7 Cover" class="book-cover">
+                </div>
+
+                <div class="book-details">
+                    <h2 class="book-title">Introduction to the Theory of Computation</h2>
+                    <p class="book-author">Author: Michael Sipser</p>
+                    <p>Publication Date: February 15, 2012</p>
+                    <p class="Genre">Genre: Electrical</p>
+                    <div class="rating">
+                        Rating :
+                        <input type="checkbox" id="star5_8" checked>
+                        <label for="star5_8"></label>
+                        <input type="checkbox" id="star4_8" checked>
+                        <label for="star4_8"></label>
+                        <input type="checkbox" id="star3_8" checked>
+                        <label for="star3_8"></label>
+                        <input type="checkbox" id="star2_8" checked>
+                        <label for="star2_8"></label>
+
+                    </div>
+                    <br><br>
+                    <button class="des">Description</button>
+                    <div class="discription hidden">
+                        <p id="description7">The number one choice for today's computational theory
+                            course, this revision continues the book's well-known,
+                            approachable style with timely revisions, additional practice, and more memorable examples
+                            in
+                            key areas. </p>
+                    </div>
+                    <br><br>
+                    <a href="book7.pdf" class="download-button">Download</a>
+                </div>
+            </div>
+
+            <div class="book-container">
+                <div class="book-img">
+                    <img src="images/the mythical.jpg" alt="Book 8 Cover" class="book-cover">
+                </div>
+
+                <div class="book-details">
+                    <h2 class="book-title">The Mythical Man-Month: Essays on Software Engineering</h2>
+                    <p class="book-author">Author: Frederick P. Brooks Jr.</p>
+                    <p>Publication Date: August 12, 1995</p>
+                    <p class="Genre">Genre: Software Engineering</p>
+                    <div class="rating">
+                        Rating :
+                        <input type="checkbox" id="star5_9" checked>
+                        <label for="star5_9"></label>
+                        <input type="checkbox" id="star4_9" checked>
+                        <label for="star4_9"></label>
+                        <input type="checkbox" id="star3_9" checked>
+                        <label for="star3_9"></label>
+                        <input type="checkbox" id="star2_9" checked>
+                        <label for="star2_9"></label>
+                        <input type="checkbox" id="star1_9" checked>
+                        <label for="star1_9"></label>
+                    </div>
+                    <br><br>
+                    <button class="des">Description</button>
+                    <div class="discription hidden">
+                        <p id="description8">These essays draw from his experience as project
+                            manager
+                            for the IBM System/360 computer family and then for OS/360, its
+                            massive software system.</p>
+                    </div>
+                    <br><br>
+                    <a href="book8.pdf" class="download-button">Download</a>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-bottom">
+            <div class="copyright">
+                <p>&copy;2024 AASTU | Developed Software Savants&trade;</p>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
